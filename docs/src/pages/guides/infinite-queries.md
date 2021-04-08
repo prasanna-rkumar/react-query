@@ -7,7 +7,7 @@ Rendering lists that can additively "load more" data onto an existing set of dat
 
 When using `useInfiniteQuery`, you'll notice a few things are different:
 
-- `data` is now an object containing infinite query data:
+- `data` is now an object containing infinite query data
 - `data.pages` array containing the fetched pages
 - `data.pageParams` array containing the page params used to fetch the pages
 - The `fetchNextPage` and `fetchPreviousPage` functions are now available
